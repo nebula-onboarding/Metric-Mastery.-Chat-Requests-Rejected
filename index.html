@@ -314,6 +314,18 @@ h1,h2,h3,h4{font-family:'Season Mix',serif;font-weight:500;}
 
 
 
+
+.transcript-toggle{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:0 0 14px 14px;overflow:hidden;margin-top:-4px;margin-bottom:20px}
+.transcript-btn{width:100%;display:flex;align-items:center;justify-content:space-between;padding:12px 20px;background:none;border:none;cursor:pointer;font-size:13px;color:rgba(184,196,216,.7);transition:color .15s}
+.transcript-btn:hover{color:#c8cad8}
+.transcript-btn .t-arrow{transition:transform .25s;font-style:normal;color:rgba(92,206,255,.5)}
+.transcript-btn.open .t-arrow{transform:rotate(180deg)}
+.transcript-body{display:none;padding:0 20px 16px}
+.transcript-body.open{display:block}
+.transcript-body ul{list-style:none;padding:0;display:flex;flex-direction:column;gap:7px}
+.transcript-body ul li{font-size:13px;color:rgba(184,196,216,.75);line-height:1.7;padding-left:16px;position:relative}
+.transcript-body ul li::before{content:"·";position:absolute;left:0;color:#5CCEFF;font-size:16px;line-height:1.3}
+.transcript-body ul li strong{color:#dde2f0}
 </style>
 </head>
 <body>
@@ -571,7 +583,7 @@ function(){
   +'<img class="vc-logo" src="'+LOGO+'" alt="Nebula">'
   +'<div class="vc-title-area"><div class="vc-title">Chat Requests Rejected</div><div class="vc-sub">What the metric tracks and why it matters</div></div>'
   +'</div>'
-  +'<div class="video-wrapper"><iframe src="" allow="autoplay" allowfullscreen></iframe></div>'
+  +'<div class="video-wrapper"><iframe src="https://drive.google.com/file/d/1oGZSJmggXp3zss2PNg07o8vrTzzXLJ_K/preview" allow="autoplay" allowfullscreen></iframe></div>'
   +'</div></div>'
 
   +'<div class="sec-head"><div class="sec-head-row"><div class="sec-dot sec-dot-sky"></div><h2>WHAT - What Is Being Measured?</h2></div></div>'
